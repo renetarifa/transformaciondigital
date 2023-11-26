@@ -1,0 +1,116 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+}
+
+.card h2 {
+    color: #007BFF;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #007BFF;
+    padding: 10px;
+    color: white;
+}
+
+#inscripcion {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+}
+
+form {
+    max-width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.leer-mas {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.leer-mas:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar por encima */
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Otros estilos */
+
+
